@@ -1,0 +1,8 @@
+dspy-ai>=2.5.0
+openai>=1.40.0
+munch
+matplotlib
+tqdm
+pydantic
+# torch is imported by your runner; install the Mac build as needed:
+torch

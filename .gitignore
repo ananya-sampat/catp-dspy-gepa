@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Heavy / not needed
+OpenCATP-LLM/
+**/pretrained_models/
+**/datasets/
+**/imgs/
+**/imgs_out/
+**/hf_cache/
+**/logs/
+**/*.pth
+**/*.pt
+**/*.bin
+**/*.ckpt
+
+# Results you don't want versioned
+results/**/*.pkl
