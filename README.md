@@ -16,9 +16,11 @@ It assumes you already have the **CATP-LLM** repo locally (not included here).
    Set your API key if using OpenAI:
    ```bash
    export OPENAI_API_KEY=sk-...
+   '''
 2. **Run GEPA**
    ```bash
    python scripts/run_gepa_optimizer.py \
   --train_plan_pool <PATH_TO_CATP>/src/catpllm/data/training_data/seq_plan_pool.pkl \
   --iterations 5 --candidates 3 --num_samples 3 --visualize
+  '''
    
